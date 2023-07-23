@@ -1,0 +1,36 @@
+disabled:
+  - id: artdiniz.quitcontrol-vscode
+    uuid: ffb0fdce-1a37-40ee-9d88-5e20f2fb0094
+enabled:
+  - id: golang.go
+    uuid: d6f6cfea-4b6f-41f4-b571-6ad2ab7918da
+  - id: hashicorp.hcl
+    uuid: 41a86ae3-cc87-4293-9324-c615272967f2
+  - id: hashicorp.terraform
+    uuid: 4a23294b-fd16-4c51-9759-da9936474cf8
+  - id: jeff-hykin.simple-csv-syntax
+    uuid: 85577d9d-0fd8-4be6-bc92-b166e7c08785
+  - id: ms-azuretools.vscode-docker
+    uuid: 0479fc1c-3d67-49f9-b087-fb9069afe48f
+  - id: ms-kubernetes-tools.vscode-kubernetes-tools
+    uuid: 4837e4f3-1b01-4732-b1a6-daa57ef64cab
+  - id: ms-python.python
+    uuid: f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5
+  - id: ms-toolsai.jupyter
+    uuid: 6c2f1801-1e7f-45b2-9b5c-7782f1e076e8
+  - id: ms-toolsai.jupyter-keymap
+    uuid: 9f6dc8db-620c-4844-b8c5-e74914f1be27
+  - id: ms-toolsai.jupyter-renderers
+    uuid: b15c72f8-d5fe-421a-a4f7-27ed9f6addbf
+  - id: redhat.java
+    uuid: 198a707e-28af-4e84-8610-6e2f628dd12d
+  - id: redhat.vscode-xml
+    uuid: 6703768d-d42f-474e-9f6e-5f288d53f6e8
+  - id: redhat.vscode-yaml
+    uuid: 2061917f-f76a-458a-8da9-f162de22b97e
+  - id: samuelcolvin.jinjahtml
+    uuid: 8b477a76-974c-403d-a454-58028c1709d1
+  - id: wholroyd.jinja
+    uuid: c941a679-d500-46a8-b2a9-208063125901
+  - id: zokugun.cron-tasks
+    uuid: eb05256f-c7aa-4554-95c6-1bb8e30e0cea

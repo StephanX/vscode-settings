@@ -1,0 +1,34 @@
+{
+    "workbench.startupEditor": "none",
+    "security.workspace.trust.banner": "never",
+    "security.workspace.trust.enabled": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "onFocusChange",
+    "editor.tabSize": 2,
+    "http.proxyAuthorization": null,
+    "redhat.telemetry.enabled": false,
+    "workbench.editor.untitled.hint": "hidden",
+    "editor.wordWrap": "on",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "files.trimTrailingWhitespace": true,
+    "update.mode": "none",
+    "vs-kubernetes": {
+        "disable-linters": ["resource-limits"],
+        "vs-kubernetes.crd-code-completion": "disabled"
+    },
+    "syncSettings.additionalFiles": [
+
+    ],
+    "quitControl.closeTabShouldTryToCloseEmptyWindow": false,
+    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+    "go.toolsManagement.autoUpdate": true,
+    "git.openRepositoryInParentFolders": "never",
+    "update.showReleaseNotes": false,
+    "window.zoomLevel": 2,
+    "files.exclude": {
+        "**/.git": false
+    }
+}
