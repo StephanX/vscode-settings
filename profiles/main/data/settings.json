@@ -16,8 +16,11 @@
     "files.trimTrailingWhitespace": true,
     "update.mode": "none",
     "vs-kubernetes": {
-        "disable-linters": ["resource-limits"],
-        "vs-kubernetes.crd-code-completion": "disabled"
+        "disable-linters": [
+            "resource-limits"
+        ],
+        "vs-kubernetes.crd-code-completion": "disabled",
+        "vs-kubernetes.minikube-show-information-expiration": "2024-01-30T16:11:35.279Z"
     },
     "syncSettings.additionalFiles": [
 
