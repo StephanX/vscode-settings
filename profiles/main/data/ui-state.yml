@@ -1,4 +1,4 @@
-golang.go: '{"go.extensionVersion":"0.37.0","forceUpdateForGoplsOnDefault":{"options":{},"loose":false,"includePrerelease":false,"raw":"v0.10.1","major":0,"minor":10,"patch":1,"prerelease":[],"build":[],"version":"0.10.1"},"latestGoVersions":{"timestamp":1695065602452,"goVersions":[{"binpath":"golang.org/dl/go1.21.1","label":"Go
+golang.go: '{"go.extensionVersion":"0.37.0","forceUpdateForGoplsOnDefault":{"options":{},"loose":false,"includePrerelease":false,"raw":"v0.10.1","major":0,"minor":10,"patch":1,"prerelease":[],"build":[],"version":"0.10.1"},"latestGoVersions":{"timestamp":1695314606747,"goVersions":[{"binpath":"golang.org/dl/go1.21.1","label":"Go
   1.21.1","available":false,"description":"download
   golang.org/dl/go1.21.1"},{"binpath":"golang.org/dl/go1.20.8","label":"Go
   1.20.8","available":false,"description":"download
@@ -28,8 +28,26 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   jsDebugHasExcludedCallers && debugType ==
   'pwa-node'\"}]},{\"id\":\"workbench.view.extensions\",\"themeIcon\":{\"id\":\
   \"extensions-view-icon\"},\"name\":\"Extensions\",\"isBuiltin\":true,\"views\
-  \":[]},{\"id\":\"workbench.view.remote\",\"themeIcon\":{\"id\":\"remote-explo\
-  rer-view-icon\"},\"name\":\"Remote
+  \":[{\"when\":\"defaultExtensionViews\"},{\"when\":\"searchExtensionUpdates ||
+  searchOutdatedExtensions\"},{\"when\":\"recommendedExtensions &&
+  workbenchState != 'empty'\"},{\"when\":\"defaultExtensionViews && hasGallery
+  && !hasInstalledExtensions\"},{\"when\":\"searchExtensionUpdates ||
+  searchRecentlyUpdatedExtensions\"},{\"when\":\"recommendedExtensions\"},{\"wh\
+  en\":\"defaultExtensionViews && hasGallery &&
+  !config.extensions.showRecommendationsOnlyOnDemand &&
+  !sortByUpdateDate\"},{\"when\":\"defaultExtensionViews &&
+  hasInstalledExtensions\"},{\"when\":\"defaultExtensionViews &&
+  hasInstalledExtensions\"},{\"when\":\"searchMarketplaceExtensions\"},{\"when\
+  \":\"searchInstalledExtensions\"},{\"when\":\"searchEnabledExtensions\"},{\"w\
+  hen\":\"searchDisabledExtensions\"},{\"when\":\"searchBuiltInExtensions\"},{\
+  \"when\":\"searchWorkspaceUnsupportedExtensions\"},{\"when\":\"builtInExtensi\
+  ons\"},{\"when\":\"builtInExtensions\"},{\"when\":\"builtInExtensions\"},{\"w\
+  hen\":\"searchUnsupportedWorkspaceExtensions\"},{\"when\":\"searchUnsupported\
+  WorkspaceExtensions\"},{\"when\":\"searchUnsupportedWorkspaceExtensions &&
+  virtualWorkspace\"},{\"when\":\"searchUnsupportedWorkspaceExtensions &&
+  virtualWorkspace\"},{\"when\":\"searchDeprecatedExtensions\"}]},{\"id\":\"wor\
+  kbench.view.remote\",\"themeIcon\":{\"id\":\"remote-explorer-view-icon\"},\"n\
+  ame\":\"Remote
   Explorer\",\"isBuiltin\":true,\"views\":[]},{\"id\":\"workbench.view.extensio\
   n.test\",\"themeIcon\":{\"id\":\"test-view-icon\"},\"name\":\"Testing\",\"isB\
   uiltin\":true,\"views\":[{\"when\":\"testing.providerCount >
@@ -41,7 +59,7 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   orm.svg\",\"scheme\":\"file\"},\"name\":\"HashiCorp
   Terraform\",\"isBuiltin\":false,\"views\":[{},{}]},{\"id\":\"workbench.view.e\
   xtension.dockerView\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PAT\
-  H%%/ms-azuretools.vscode-docker-1.25.2-universal/resources/docker.svg\",\"sch\
+  H%%/ms-azuretools.vscode-docker-1.26.1-universal/resources/docker.svg\",\"sch\
   eme\":\"file\"},\"name\":\"Docker\",\"isBuiltin\":false,\"views\":[{},{},{},{\
   },{},{},{}]},{\"id\":\"workbench.view.extension.kubernetesView\",\"iconUrl\":{\
   \"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/ms-kubernetes-tools.vscode-kube\
@@ -53,7 +71,7 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   defaultProfile-icon\"},\"name\":\"Profiles\",\"isBuiltin\":true,\"views\":[]}\
   ]"
 workbench.auxiliaryBar.size: "256"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["pip-requirements",true],["terraform-vars",true],["helm",true],["json",true],["python",true],["shellscript",true],["hcl",true],["terraform",true],["markdown",true],["plaintext",true],["properties",true],["yaml",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["pip-requirements",true],["terraform-vars",true],["helm",true],["json",true],["python",true],["shellscript",true],["hcl",true],["markdown",true],["properties",true],["plaintext",true],["terraform",true],["yaml",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":true},{"id":"terraform.providers","isHidden":false},{"id":"terraform.modules","isHidden":false},{"id":"go.explorer","isHidden":false}]'
 workbench.grid.size: '{"height":743,"width":1024}'
 workbench.panel.alignment: center
