@@ -72,7 +72,7 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   alse},{\"id\":\"userDataProfiles\",\"themeIcon\":{\"id\":\"defaultProfile-icon\
   \"},\"name\":\"Profiles\",\"isBuiltin\":true,\"views\":[]}]"
 workbench.auxiliaryBar.size: "256"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["pip-requirements",true],["json",true],["python",true],["hcl",true],["terraform-vars",true],["shellscript",true],["properties",true],["terraform",true],["markdown",true],["helm",true],["plaintext",true],["yaml",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["pip-requirements",true],["python",true],["hcl",true],["terraform-vars",true],["shellscript",true],["properties",true],["terraform",true],["helm",true],["plaintext",true],["json",true],["markdown",true],["yaml",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":true},{"id":"terraform.providers","isHidden":false},{"id":"terraform.modules","isHidden":false},{"id":"go.explorer","isHidden":false}]'
 workbench.grid.size: '{"height":743,"width":1024}'
 workbench.panel.alignment: center
