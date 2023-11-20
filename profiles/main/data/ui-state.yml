@@ -3,7 +3,7 @@ golang.go: '{"go.extensionVersion":"0.37.0","forceUpdateForGoplsOnDefault":{"opt
   golang.org/dl/go1.21.1"},{"binpath":"golang.org/dl/go1.20.8","label":"Go
   1.20.8","available":false,"description":"download
   golang.org/dl/go1.20.8"}]},"goplsSurveyConfig":"{\"prompt\":true,\"promptThisMonth\":false,\"dateComputedPromptThisMonth\":\"2022-12-09T21:50:18.788Z\"}"}'
-workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":true,"order":0},{"id":"workbench.view.search","pinned":true,"visible":true,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":true,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":true,"order":3},{"id":"workbench.view.extensions","pinned":true,"visible":true,"order":4},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.terraform","pinned":true,"visible":true,"order":8},{"id":"workbench.view.extension.dockerView","pinned":true,"visible":true,"order":9},{"id":"workbench.view.extension.kubernetesView","pinned":true,"visible":true,"order":10},{"id":"workbench.view.extension.jupyter","pinned":true,"visible":false,"order":11},{"id":"workbench.panel.chatSidebar","pinned":true,"visible":false,"order":100},{"id":"workbench.view.editSessions","pinned":true,"visible":false},{"id":"userDataProfiles","pinned":true,"visible":false}]'
+workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":true,"order":0},{"id":"workbench.view.search","pinned":true,"visible":true,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":true,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":true,"order":3},{"id":"workbench.view.extensions","pinned":true,"visible":true,"order":4},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.terraform","pinned":true,"visible":true,"order":8},{"id":"workbench.view.extension.terraform-cloud","pinned":true,"visible":true,"order":9},{"id":"workbench.view.extension.dockerView","pinned":true,"visible":true,"order":10},{"id":"workbench.view.extension.kubernetesView","pinned":true,"visible":true,"order":11},{"id":"workbench.view.extension.jupyter","pinned":true,"visible":false,"order":12},{"id":"workbench.panel.chatSidebar","pinned":true,"visible":false,"order":100},{"id":"workbench.view.editSessions","pinned":true,"visible":false},{"id":"userDataProfiles","pinned":true,"visible":false}]'
 workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   \"themeIcon\":{\"id\":\"explorer-view-icon\"},\"name\":\"Explorer\",\"isBuilt\
   in\":true,\"views\":[{},{},{},{\"when\":\"timelineHasProvider\"},{\"when\":\"\
@@ -37,15 +37,19 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   ences-view\",\"themeIcon\":{\"id\":\"references\"},\"name\":\"References\",\"\
   isBuiltin\":false,\"views\":[{\"when\":\"reference-list.isActive\"}]},{\"id\":\
   \"workbench.view.extension.terraform\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%E\
-  XTENSION_DATA_PATH%%/hashicorp.terraform-2.28.2-linux-x64/assets/icons/terraf\
-  orm.svg\",\"scheme\":\"file\"},\"name\":\"HashiCorp
+  XTENSION_DATA_PATH%%/hashicorp.terraform-2.29.0-linux-x64/assets/icons/vs_cod\
+  e_terraform.svg\",\"scheme\":\"file\"},\"name\":\"HashiCorp
   Terraform\",\"isBuiltin\":false,\"views\":[{},{}]},{\"id\":\"workbench.view.e\
-  xtension.dockerView\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PAT\
-  H%%/ms-azuretools.vscode-docker-1.27.0-universal/resources/docker.svg\",\"sch\
-  eme\":\"file\"},\"name\":\"Docker\",\"isBuiltin\":false,\"views\":[{},{},{},{\
-  },{},{},{}]},{\"id\":\"workbench.view.extension.kubernetesView\",\"iconUrl\":{\
-  \"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/ms-kubernetes-tools.vscode-kube\
-  rnetes-tools-1.3.15-universal/images/logo.svg\",\"scheme\":\"file\"},\"name\":\
+  xtension.terraform-cloud\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DAT\
+  A_PATH%%/hashicorp.terraform-2.29.0-linux-x64/assets/icons/vs_code_terraform_\
+  cloud.svg\",\"scheme\":\"file\"},\"name\":\"HashiCorp Terraform
+  Cloud\",\"isBuiltin\":false,\"views\":[{},{}]},{\"id\":\"workbench.view.exten\
+  sion.dockerView\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/\
+  ms-azuretools.vscode-docker-1.28.0-universal/resources/docker.svg\",\"scheme\
+  \":\"file\"},\"name\":\"Docker\",\"isBuiltin\":false,\"views\":[{},{},{},{},{\
+  },{},{}]},{\"id\":\"workbench.view.extension.kubernetesView\",\"iconUrl\":{\"\
+  $mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/ms-kubernetes-tools.vscode-kubern\
+  etes-tools-1.3.15-universal/images/logo.svg\",\"scheme\":\"file\"},\"name\":\
   \"Kubernetes\",\"isBuiltin\":false,\"views\":[{},{},{}]},{\"id\":\"workbench.\
   view.extension.jupyter\",\"themeIcon\":{\"id\":\"notebook\"},\"name\":\"Jupyt\
   er\",\"isBuiltin\":false,\"views\":[]},{\"id\":\"workbench.panel.chatSidebar\
@@ -54,7 +58,7 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   alse},{\"id\":\"userDataProfiles\",\"themeIcon\":{\"id\":\"defaultProfile-icon\
   \"},\"name\":\"Profiles\",\"isBuiltin\":true,\"views\":[]}]"
 workbench.auxiliaryBar.size: "256"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["pip-requirements",true],["python",true],["hcl",true],["terraform-vars",true],["shellscript",true],["properties",true],["terraform",true],["helm",true],["json",true],["markdown",true],["yaml",true],["plaintext",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["pip-requirements",true],["python",true],["hcl",true],["shellscript",true],["properties",true],["helm",true],["json",true],["markdown",true],["yaml",true],["plaintext",true],["terraform",true],["terraform-vars",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":true},{"id":"terraform.providers","isHidden":false},{"id":"terraform.modules","isHidden":false},{"id":"go.explorer","isHidden":false}]'
 workbench.grid.size: '{"height":743,"width":1024}'
 workbench.panel.alignment: center
@@ -75,6 +79,7 @@ workbench.view.debug.state.hidden: '[{"id":"workbench.debug.welcome","isHidden":
 workbench.view.extension.dockerView.state.hidden: '[{"id":"dockerContainers","isHidden":false},{"id":"dockerImages","isHidden":false},{"id":"dockerRegistries","isHidden":false},{"id":"dockerNetworks","isHidden":false},{"id":"dockerVolumes","isHidden":false},{"id":"vscode-docker.views.dockerContexts","isHidden":false},{"id":"vscode-docker.views.help","isHidden":false}]'
 workbench.view.extension.jupyter-variables.state.hidden: '[{"id":"jupyterViewVariables","isHidden":false}]'
 workbench.view.extension.kubernetesView.state.hidden: '[{"id":"extension.vsKubernetesExplorer","isHidden":false},{"id":"extension.vsKubernetesHelmRepoExplorer","isHidden":false},{"id":"kubernetes.cloudExplorer","isHidden":false}]'
+workbench.view.extension.terraform-cloud.state.hidden: '[{"id":"terraform.cloud.workspaces","isHidden":false},{"id":"terraform.cloud.runs","isHidden":false}]'
 workbench.view.extension.terraform.state.hidden: '[{"id":"terraform.providers","isHidden":false},{"id":"terraform.modules","isHidden":false}]'
 workbench.view.extension.test.state.hidden: '[{"id":"workbench.view.testing","isHidden":false},{"id":"go.test.profile","isHidden":false}]'
 workbench.view.extensions.state.hidden: '[{"id":"workbench.views.extensions.installed","isHidden":false},{"id":"workbench.views.extensions.searchOutdated","isHidden":false},{"id":"workbench.views.extensions.workspaceRecommendations","isHidden":false},{"id":"workbench.views.extensions.popular","isHidden":false},{"id":"workbench.views.extensions.searchRecentlyUpdated","isHidden":false},{"id":"workbench.views.extensions.otherRecommendations","isHidden":false},{"id":"extensions.recommendedList","isHidden":false},{"id":"workbench.views.extensions.enabled","isHidden":true},{"id":"workbench.views.extensions.disabled","isHidden":true},{"id":"workbench.views.extensions.marketplace","isHidden":false},{"id":"workbench.views.extensions.searchInstalled","isHidden":false},{"id":"workbench.views.extensions.searchEnabled","isHidden":false},{"id":"workbench.views.extensions.searchDisabled","isHidden":false},{"id":"workbench.views.extensions.searchBuiltin","isHidden":false},{"id":"workbench.views.extensions.searchWorkspaceUnsupported","isHidden":false},{"id":"workbench.views.extensions.builtinFeatureExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinThemeExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinProgrammingLanguageExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.deprecatedExtensions","isHidden":false}]'
