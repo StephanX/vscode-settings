@@ -8,7 +8,6 @@
     "editor.tabSize": 2,
     "http.proxyAuthorization": null,
     "redhat.telemetry.enabled": false,
-    "workbench.editor.untitled.hint": "hidden",
     "editor.wordWrap": "on",
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
