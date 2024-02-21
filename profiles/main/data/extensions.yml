@@ -14,6 +14,8 @@ enabled:
     uuid: 0479fc1c-3d67-49f9-b087-fb9069afe48f
   - id: ms-kubernetes-tools.vscode-kubernetes-tools
     uuid: 4837e4f3-1b01-4732-b1a6-daa57ef64cab
+  - id: ms-python.debugpy
+    uuid: 4bd5d2c9-9d65-401a-b0b2-7498d9f17615
   - id: ms-python.python
     uuid: f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5
   - id: ms-toolsai.jupyter
