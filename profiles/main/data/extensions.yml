@@ -35,4 +35,4 @@ enabled:
   - id: wholroyd.jinja
     uuid: c941a679-d500-46a8-b2a9-208063125901
   - id: zokugun.cron-tasks
-    uuid: eb05256f-c7aa-4554-95c6-1bb8e30e0cea
+    uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb
