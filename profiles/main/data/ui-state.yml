@@ -48,7 +48,7 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   cloud.svg\",\"scheme\":\"file\"},\"name\":\"HCP
   Terraform\",\"isBuiltin\":false,\"views\":[{},{}]},{\"id\":\"workbench.view.e\
   xtension.dockerView\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PAT\
-  H%%/ms-azuretools.vscode-docker-1.29.4-universal/resources/docker.svg\",\"sch\
+  H%%/ms-azuretools.vscode-docker-1.29.5-universal/resources/docker.svg\",\"sch\
   eme\":\"file\"},\"name\":\"Docker\",\"isBuiltin\":false,\"views\":[{},{},{},{\
   },{},{},{}]},{\"id\":\"workbench.view.extension.kubernetesView\",\"iconUrl\":{\
   \"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/ms-kubernetes-tools.vscode-kube\
@@ -64,8 +64,11 @@ workbench.auxiliarybar.pinnedPanels: '[{"id":"workbench.panel.chat","pinned":tru
 workbench.auxiliarybar.placeholderPanels: '[{"id":"workbench.panel.chat","themeIcon":{"id":"comment-discussion"},"name":"Chat","isBuiltin":true,"views":[{"when":"chatExtensionInvalid
   || chatPanelParticipantRegistered || chatSetupInstalled ||
   !chatSetupHidden"}]},{"id":"workbench.panel.chatEditing","themeIcon":{"id":"edit-session"},"name":"Copilot
-  Edits","isBuiltin":true,"views":[{"when":"chatEditingParticipantRegistered ||
-  chatSetupInstalled || !chatSetupHidden"}]}]'
+  Edits","isBuiltin":true,"views":[{"when":"chatEditingParticipantRegistered &&
+  config.chat.unifiedChatView && showMovedChatEditsView || chatSetupInstalled &&
+  config.chat.unifiedChatView && showMovedChatEditsView ||
+  config.chat.unifiedChatView && showMovedChatEditsView &&
+  !chatSetupHidden"}]}]'
 workbench.auxiliaryBar.size: "256"
 workbench.editor.languageDetectionOpenedLanguages.global: '[["python",true],["helm",true],["properties",true],["json",true],["markdown",true],["ignore",true],["shellscript",true],["yaml",true],["hcl",true],["terraform-vars",true],["terraform",true],["plaintext",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":true},{"id":"terraform.providers","isHidden":false},{"id":"terraform.modules","isHidden":false},{"id":"go.explorer","isHidden":false}]'
