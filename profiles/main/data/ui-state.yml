@@ -48,11 +48,11 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   cloud.svg\",\"scheme\":\"file\"},\"name\":\"HCP
   Terraform\",\"isBuiltin\":false,\"views\":[{},{}]},{\"id\":\"workbench.view.e\
   xtension.dockerView\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PAT\
-  H%%/ms-azuretools.vscode-docker-1.29.5-universal/resources/docker.svg\",\"sch\
+  H%%/ms-azuretools.vscode-docker-1.29.6-universal/resources/docker.svg\",\"sch\
   eme\":\"file\"},\"name\":\"Docker\",\"isBuiltin\":false,\"views\":[{},{},{},{\
   },{},{},{}]},{\"id\":\"workbench.view.extension.kubernetesView\",\"iconUrl\":{\
   \"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/ms-kubernetes-tools.vscode-kube\
-  rnetes-tools-1.3.22-universal/images/logo.svg\",\"scheme\":\"file\"},\"name\":\
+  rnetes-tools-1.3.23-universal/images/logo.svg\",\"scheme\":\"file\"},\"name\":\
   \"Kubernetes\",\"isBuiltin\":false,\"views\":[{},{},{}]},{\"id\":\"workbench.\
   view.extension.jupyter\",\"themeIcon\":{\"id\":\"notebook\"},\"name\":\"Jupyt\
   er\",\"isBuiltin\":false,\"views\":[]},{\"id\":\"workbench.panel.chatSidebar\
@@ -70,7 +70,7 @@ workbench.auxiliarybar.placeholderPanels: '[{"id":"workbench.panel.chat","themeI
   config.chat.unifiedChatView && showMovedChatEditsView &&
   !chatSetupHidden"}]}]'
 workbench.auxiliaryBar.size: "256"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["python",true],["helm",true],["properties",true],["ignore",true],["yaml",true],["hcl",true],["terraform-vars",true],["terraform",true],["shellscript",true],["plaintext",true],["json",true],["markdown",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["python",true],["helm",true],["properties",true],["ignore",true],["yaml",true],["hcl",true],["terraform-vars",true],["terraform",true],["shellscript",true],["json",true],["markdown",true],["plaintext",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":true},{"id":"terraform.providers","isHidden":false},{"id":"terraform.modules","isHidden":false},{"id":"go.explorer","isHidden":false},{"id":"go.package.outline","isHidden":false}]'
 workbench.grid.size: '{"height":743,"width":1024}'
 workbench.panel.alignment: center
