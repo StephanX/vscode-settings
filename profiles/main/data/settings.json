@@ -19,7 +19,7 @@
             "resource-limits"
         ],
         "vs-kubernetes.crd-code-completion": "disabled",
-        "vs-kubernetes.minikube-show-information-expiration": "2024-01-30T16:11:35.279Z"
+        "vscode-kubernetes.minikube-path-linux": "/home/stephan/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube"
     },
     "syncSettings.additionalFiles": [
 
