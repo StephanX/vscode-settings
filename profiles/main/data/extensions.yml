@@ -10,6 +10,8 @@ enabled:
     uuid: 4a23294b-fd16-4c51-9759-da9936474cf8
   - id: jeff-hykin.simple-csv-syntax
     uuid: 85577d9d-0fd8-4be6-bc92-b166e7c08785
+  - id: ms-azuretools.vscode-containers
+    uuid: 2cd1d691-3d69-4d2d-ae39-fda4bc4cfd3d
   - id: ms-azuretools.vscode-docker
     uuid: 0479fc1c-3d67-49f9-b087-fb9069afe48f
   - id: ms-kubernetes-tools.vscode-kubernetes-tools
