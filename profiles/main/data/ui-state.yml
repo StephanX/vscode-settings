@@ -31,11 +31,31 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   jsDebugHasExcludedCallers && debugType ==
   'pwa-node'\"},{\"when\":\"jsDebugNetworkAvailable\"}]},{\"id\":\"workbench.vi\
   ew.extensions\",\"themeIcon\":{\"id\":\"extensions-view-icon\"},\"name\":\"Ex\
-  tensions\",\"isBuiltin\":true,\"views\":[{\"when\":\"defaultExtensionViews &&
+  tensions\",\"isBuiltin\":true,\"views\":[{\"when\":\"defaultExtensionViews\"}\
+  ,{\"when\":\"searchExtensionUpdates ||
+  searchOutdatedExtensions\"},{\"when\":\"recommendedExtensions &&
+  workbenchState != 'empty'\"},{\"when\":\"defaultExtensionViews && hasGallery
+  && !hasInstalledExtensions\"},{\"when\":\"searchExtensionUpdates ||
+  searchRecentlyUpdatedExtensions\"},{\"when\":\"recommendedExtensions\"},{\"wh\
+  en\":\"defaultExtensionViews && hasGallery &&
+  !config.extensions.showRecommendationsOnlyOnDemand &&
+  !sortByUpdateDate\"},{\"when\":\"defaultExtensionViews &&
   hasInstalledMcpServers &&
-  mcpServersGalleryEnabled\"},{\"when\":\"mcpServersGalleryEnabled &&
-  searchMcpServers\"}]},{\"id\":\"workbench.view.remote\",\"themeIcon\":{\"id\":\
-  \"remote-explorer-view-icon\"},\"name\":\"Remote
+  mcpServersGalleryEnabled\"},{\"when\":\"defaultExtensionViews &&
+  hasInstalledExtensions\"},{\"when\":\"defaultExtensionViews &&
+  hasInstalledExtensions\"},{\"when\":\"mcpServersGalleryEnabled &&
+  searchMcpServers\"},{\"when\":\"searchMarketplaceExtensions\"},{\"when\":\"in\
+  stalledExtensions ||
+  searchInstalledExtensions\"},{\"when\":\"searchEnabledExtensions\"},{\"when\":\
+  \"searchDisabledExtensions\"},{\"when\":\"searchBuiltInExtensions\"},{\"when\
+  \":\"searchWorkspaceUnsupportedExtensions\"},{\"when\":\"builtInExtensions\"}\
+  ,{\"when\":\"builtInExtensions\"},{\"when\":\"builtInExtensions\"},{\"when\":\
+  \"searchUnsupportedWorkspaceExtensions\"},{\"when\":\"searchUnsupportedWorksp\
+  aceExtensions\"},{\"when\":\"searchUnsupportedWorkspaceExtensions &&
+  virtualWorkspace\"},{\"when\":\"searchUnsupportedWorkspaceExtensions &&
+  virtualWorkspace\"},{\"when\":\"searchDeprecatedExtensions\"}]},{\"id\":\"wor\
+  kbench.view.remote\",\"themeIcon\":{\"id\":\"remote-explorer-view-icon\"},\"n\
+  ame\":\"Remote
   Explorer\",\"isBuiltin\":true,\"views\":[]},{\"id\":\"workbench.view.extensio\
   n.test\",\"themeIcon\":{\"id\":\"test-view-icon\"},\"name\":\"Testing\",\"isB\
   uiltin\":true,\"views\":[{\"when\":\"testing.providerCount >
@@ -72,7 +92,7 @@ workbench.auxiliarybar.placeholderPanels: '[{"id":"workbench.panel.chat","themeI
   !chatSetupHidden"}]},{"id":"workbench.panel.chatEditing","name":"Copilot
   Edits","isBuiltin":false}]'
 workbench.auxiliaryBar.size: "256"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["helm",true],["properties",true],["ignore",true],["hcl",true],["yaml",true],["markdown",true],["json",true],["python",true],["terraform-vars",true],["terraform",true],["shellscript",true],["plaintext",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["helm",true],["properties",true],["ignore",true],["hcl",true],["yaml",true],["markdown",true],["json",true],["python",true],["plaintext",true],["terraform-vars",true],["shellscript",true],["terraform",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":true},{"id":"terraform.providers","isHidden":false},{"id":"terraform.modules","isHidden":false},{"id":"go.explorer","isHidden":false},{"id":"go.package.outline","isHidden":false}]'
 workbench.grid.size: '{"height":743,"width":1024}'
 workbench.panel.alignment: center
