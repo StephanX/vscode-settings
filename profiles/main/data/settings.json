@@ -40,5 +40,8 @@
     },
     "workbench.editor.empty.hint": "hidden",
     "cSpell.spellCheckDelayMs": 1000,
-    "cSpell.suggestionsTimeout": 1000
+    "cSpell.suggestionsTimeout": 1000,
+    "cSpell.hideIssuesWhileTyping": "Line",
+    "cSpell.caseSensitive": true,
+    "cSpell.enabled": false
 }
