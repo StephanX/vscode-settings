@@ -38,5 +38,7 @@
         "download": "0 9 * * *",    // at 9AM, every day
         "upload": "0 17 * * *"      // at 5PM, every day
     },
-    "workbench.editor.empty.hint": "hidden"
+    "workbench.editor.empty.hint": "hidden",
+    "cSpell.spellCheckDelayMs": 1000,
+    "cSpell.suggestionsTimeout": 1000
 }

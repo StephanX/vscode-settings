@@ -38,6 +38,8 @@ enabled:
     uuid: 2061917f-f76a-458a-8da9-f162de22b97e
   - id: samuelcolvin.jinjahtml
     uuid: 8b477a76-974c-403d-a454-58028c1709d1
+  - id: streetsidesoftware.code-spell-checker
+    uuid: f6dbd813-b0a0-42c1-90ea-10dde9d925a7
   - id: wholroyd.jinja
     uuid: c941a679-d500-46a8-b2a9-208063125901
   - id: zokugun.cron-tasks
