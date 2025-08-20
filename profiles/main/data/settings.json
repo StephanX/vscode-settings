@@ -12,7 +12,6 @@
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
     "git.autofetch": true,
-    "files.trimTrailingWhitespace": true,
     "update.mode": "none",
     "vs-kubernetes": {
         "disable-linters": [
@@ -43,5 +42,6 @@
     "cSpell.suggestionsTimeout": 1000,
     "cSpell.hideIssuesWhileTyping": "Line",
     "cSpell.caseSensitive": true,
-    "cSpell.enabled": false
+    "cSpell.enabled": false,
+    "files.trimTrailingWhitespaceInRegexAndStrings": false
 }
