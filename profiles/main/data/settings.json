@@ -43,5 +43,7 @@
     "cSpell.hideIssuesWhileTyping": "Line",
     "cSpell.caseSensitive": true,
     "cSpell.enabled": false,
-    "files.trimTrailingWhitespaceInRegexAndStrings": false
+    "files.trimTrailingWhitespaceInRegexAndStrings": false,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true
 }
