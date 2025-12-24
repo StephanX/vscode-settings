@@ -55,7 +55,7 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   Terraform\",\"isBuiltin\":false,\"views\":[{},{}]},{\"id\":\"workbench.view.e\
   xtension.dockerView\",\"name\":\"Docker\",\"isBuiltin\":false},{\"id\":\"work\
   bench.view.extension.kubernetesView\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EX\
-  TENSION_DATA_PATH%%/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.26-univer\
+  TENSION_DATA_PATH%%/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.28-univer\
   sal/images/logo.svg\",\"scheme\":\"file\"},\"name\":\"Kubernetes\",\"isBuiltin\
   \":false,\"views\":[{},{},{}]},{\"id\":\"workbench.view.extension.jupyter\",\
   \"themeIcon\":{\"id\":\"notebook\"},\"name\":\"Jupyter\",\"isBuiltin\":false,\
